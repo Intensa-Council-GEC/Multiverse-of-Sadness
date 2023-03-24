@@ -1,0 +1,227 @@
+.body {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  background-color: #f5f5fb;
+}
+.searchbar {
+  display: flex;
+  max-width: 500px;
+  align-items: left;
+  position: relative;
+  border-color: rgb(135, 158, 178);
+}
+.searchbar-input {
+  background-color: white;
+  border-radius: 15px;
+  border-color: rgb(135, 158, 178);
+  align-items: center;
+  width: 100%;
+}
+.reminders-page-right {
+  background-color: white;
+  width: 20%;
+  float: right;
+  margin-top: 0px;
+  min-height: 100vh;
+  margin-right: 90;
+  border-radius: 20px;
+  position: fixed;
+  right: -80px;
+}
+.reminders-page-left {
+  width: 20%;
+  float: left;
+  margin-left: 60px;
+  margin-top: 10px;
+
+}
+.reminders-page-middle {
+  width: 60%;
+  margin: auto;
+  position: relative;
+}
+.reminders-page-left-menu {
+  color: rgba(133, 135, 153, 1);
+  width: 82px;
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+  position: fixed;
+}
+.reminders-page-text1 {
+  top: 100px;
+  position: absolute;
+}
+.reminders-page-text2 {
+  top: 175px;
+  position: absolute;
+}
+.reminders-page-text3 {
+  top: 250px;
+  position: absolute;
+}
+.reminders-page-text4 {
+  top: 325px;
+  position: absolute;
+}
+.reminders-page-text5 {
+  top: 400px;
+  position: absolute;
+}
+.reminders-page-text6 {
+  top: 475px;
+  position: absolute;
+}
+.reminders-page-text7 {
+  top: 550px;
+  position: absolute;
+}
+.reminders-page-text8 {
+  top: 625px;
+  position: absolute;
+}
+
+.menutext {
+  color: rgb(55, 56, 62);
+  width: 82px;
+  height: auto;
+  font-size: 17px;
+  align-self: auto;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.Logo {
+  position: fixed;
+  max-width: 50px;
+  border-radius: 15px;
+}
+.brand {
+  position: fixed;
+}
+.brand-text1 {
+  color: red;
+}
+.brand-text2 {
+  color: purple;
+  position: relative;
+  right: 5;
+}
+.brand-text3 {
+  color: green;
+  position: relative;
+  right: 10px;
+}
+.brand-text {
+  position: relative;
+  top: 11px;
+  left: 55px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.searchbar input {
+  border-radius: 12px;
+  height: 45px;
+  min-width: 200%;
+  margin-top: 20px;
+}
+.transaction-data {
+  border: 0px;
+}
+.transaction-header {
+  border-radius: 15px;
+  background-color: #4ad400;
+}
+.transaction-table {
+  border-radius: 20px;
+  margin:auto;
+  background-color: lightgrey;
+}
+.profile {
+  position: relative;
+  top: 15px;
+  left: 20px;
+}
+.searchicon {
+  width: 20px;
+  height: 20px;
+  margin: 0px;
+  position: relative;
+  top: 33px;
+  left: 25%;
+  opacity: 50%;
+}
+.x {
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+.username {
+  font-weight: 800;
+  font-size: 20;
+  position: relative;
+  top: -40px;
+  left: 70px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.Progress {
+  color: rgb(0, 0, 0);
+  width: 82px;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 800;
+  position: relative;
+  margin-left: 15px;
+  height: 250px;
+}
+.Reminders {
+  color: rgb(0, 0, 0);
+  width: 82px;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 800;
+  position: relative;
+  margin-left: 15px;
+  height: 250px;
+}
+
+#myProgress {
+  width: 100%;
+  background-color: grey;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: green;
+}
+
+.ellipse-1{
+position: fixed;
+left: -20px;
+bottom: -10px;
+}
+.add-transaction{
+  position: relative;
+  width: 200px; 
+  height:40px;
+  margin: auto;
+}
+
+.transaction-table{
+  position: relative;
+}
+.profilephoto1{
+  width: 20%;
+}

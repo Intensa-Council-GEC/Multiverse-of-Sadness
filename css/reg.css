@@ -1,0 +1,53 @@
+body{
+    margin-top:20px;
+    background:#FFEBB4;
+}
+.container{
+width:90%;
+margin: auto;
+overflow: hidden; 
+display:block; 
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #E21818;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-brand {
+    color: #bc3208;
+}
+.logo{
+    float:left;
+    height:50px;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #FFEBB4;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px 0px rgba(0,0,0,0.1);
+}
+.panel-heading{
+    color:#E21818;
+    border-bottom: 2px solid transparent;
+}
+.form-control{
+    /* width: 60%; */
+}
+footer{
+position:relative; 
+padding:15px 0px;
+background-color:#222;
+color:#cccccc;
+bottom:0px;
+width:100%;
+}
+.field-icon {
+            float: right;
+            margin-left: 111px;
+            margin-top: -25px;
+            position: absolute;
+            z-index: 2;
+            }
+.panel-footer{
+    color: #E21818;
+}
